@@ -54,10 +54,11 @@
                 <li>
                     <?php
                         echo sprintf('%s - %s | %d-%d', 
-                            $matches[$i]['home'], 
-                            $matches[$i]['away'], 
-                            $matches[$i]['pointHome'], 
-                            $matches[$i]['pointAway']);
+                                        $matches[$i]['home'], 
+                                        $matches[$i]['away'], 
+                                        $matches[$i]['pointHome'], 
+                                        $matches[$i]['pointAway']
+                                    );
                     ?>
                 </li>
         <?php } ?>    
